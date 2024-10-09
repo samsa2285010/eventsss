@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Avenir Next Cyr";
+    src: url(url(fonts/avenirnextcyr-light.ttf));
+}
+
+
+
+body{
+    background-color: black;
+    color:white;
+}
+.contanier{
+    width: 1920px;
+    border: solid;
+    border-color: white;
+}
+
+header {
+    width: 1920px;
+    height: 200px;
+    border: solid;
+    border-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 150px;
+    border: solid;
+    border-color: white;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+
+.shapka {
+    list-style: none;
+    color: white;
+    font-size: 26px;
+    border: solid;
+    border-color: white;
+    width: 1200px;
+    margin-top: 80px;
+}
+
+.shapka li {
+    display: inline;
+    margin: 15px;
+}
+.shapka a{
+    color: white;
+    text-decoration: none;
+}
+
+.shapka a:hover { 
+    color: brown;
+    transition: 0.2s ease;
+
+
+}
+
